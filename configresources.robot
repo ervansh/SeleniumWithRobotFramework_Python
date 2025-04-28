@@ -2,7 +2,7 @@
 
 # Test Configurations
 ${BASE_URL}      https://parabank.parasoft.com/
-${BROWSER}       chrome
+${BROWSER}       headlesschrome
 
 # Credentials
 ${USER_NAME}     test_user
