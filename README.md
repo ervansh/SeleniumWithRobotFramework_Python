@@ -1,6 +1,5 @@
 <html>
 <head>
-<title>Learn Robot Framework with Selenium & Python</title>
 <h3>Project Disclaimer :</h3> 
   This project is for learning purpose only!
 </head>
