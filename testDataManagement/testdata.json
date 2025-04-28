@@ -1,0 +1,12 @@
+{
+    "dev": {
+        "base_url": "https://dev.example.com",
+        "username": "dev_user",
+        "password": "dev_pass"
+    },
+    "qa": {
+        "base_url": "https://qa.example.com",
+        "username": "qa_user",
+        "password": "qa_pass"
+    }
+}

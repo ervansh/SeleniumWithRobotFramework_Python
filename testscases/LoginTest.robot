@@ -5,8 +5,8 @@ Resource   ../resources/HomeKeywords.robot
 Resource   ../configresources.robot
 
 
-Suite Setup    Open Browser   ${BASE_URL}    ${BROWSER}
-Suite Teardown    Close Browser
+Test Setup    Open Browser   ${BASE_URL}    ${BROWSER}
+Suite Teardown    Close All Browsers
 
 *** Test Cases ***
 Valid Login Test
@@ -22,3 +22,4 @@ Invalid Login Test
     Login To Application    ${USER_NAME}    ${PASSWORD}
     Verify login error displayed
     #Close Browser
+
