@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-04-28T17:05:07.801939" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="TaggingTest" source="C:\Users\vanshraj_singh\PycharmProjects\SeleniumWithRobotFramework_Python\testscases\TaggingTest.robot">
+<test id="s1-s1-t1" name="TC1 User registration" line="5">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>User registration</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-04-28T17:05:07.825996" elapsed="0.000206"/>
+</kw>
+<tag>smoke</tag>
+<status status="PASS" start="2025-04-28T17:05:07.825518" elapsed="0.000804"/>
+</test>
+<test id="s1-s1-t2" name="TC2 User login" line="10">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>User login</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-04-28T17:05:07.829180" elapsed="0.000233"/>
+</kw>
+<tag>sanity</tag>
+<status status="PASS" start="2025-04-28T17:05:07.826487" elapsed="0.003062"/>
+</test>
+<test id="s1-s1-t3" name="TC3 User verification" line="14">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>User verification</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-04-28T17:05:07.830043" elapsed="0.000214"/>
+</kw>
+<tag>smoke, sanity</tag>
+<status status="PASS" start="2025-04-28T17:05:07.829751" elapsed="0.000627"/>
+</test>
+<test id="s1-s1-t4" name="TC4 User logout" line="18">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>User logout</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-04-28T17:05:07.830859" elapsed="0.000183"/>
+</kw>
+<tag>regression</tag>
+<status status="PASS" start="2025-04-28T17:05:07.830569" elapsed="0.000583"/>
+</test>
+<status status="PASS" start="2025-04-28T17:05:07.824504" elapsed="0.006983"/>
+</suite>
+<status status="PASS" start="2025-04-28T17:05:07.815908" elapsed="0.016037"/>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">regression</stat>
+<stat pass="1" fail="0" skip="0">sanity</stat>
+<stat pass="1" fail="0" skip="0">smoke</stat>
+<stat pass="1" fail="0" skip="0">smoke, sanity</stat>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="4" fail="0" skip="0">Suites</stat>
+<stat name="TaggingTest" id="s1-s1" pass="4" fail="0" skip="0">Suites.TaggingTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

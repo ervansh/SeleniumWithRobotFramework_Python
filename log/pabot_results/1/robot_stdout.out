@@ -1,0 +1,30 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.loginTest                                                              
+==============================================================================
+Valid Login Test                                                        
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\vanshraj_singh\PycharmProjects\SeleniumWithRobotFramework_Python\testscases\loginTest.robot:12
+    T:  Valid Login Test    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\vanshraj_singh\PycharmProjects\SeleniumWithRobotFramework_Python\testscases\loginTest.robot:16
+      Verify Home Page Loaded    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\vanshraj_singh\PycharmProjects\SeleniumWithRobotFramework_Python\resources\HomeKeywords.robot:8
+      Page Should Contain Element    ${HOME_LOGO}
+      |  ${HOME_LOGO} = xpath://div[@class='logo'] (str)
+______________________________________________________________________________
+| FAIL |
+Page should have contained element 'xpath://div[@class='logo']' but did not.
+------------------------------------------------------------------------------
+Invalid Login Test                                                    | PASS |
+------------------------------------------------------------------------------
+Suites.loginTest                                                      | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  C:\Users\vanshraj_singh\PycharmProjects\SeleniumWithRobotFramework_Python\log\pabot_results\1\output.xml
